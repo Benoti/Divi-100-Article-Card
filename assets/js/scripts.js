@@ -95,7 +95,7 @@ jQuery(document).ready(function ($) {
         .replaceWith(function (i, text) {
           return (
             text
-              .replace(/([a-zA-Z]+)([\d\D]*)/g,
+              .replace(/([A-zÀ-ú]+)([\d\D]*)/g,
                 '<div class="article-card__date">\
                   <span class="article-card__day">$2</span>\
                   <span class="article-card__month">$1</span>\
